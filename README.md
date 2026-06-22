@@ -164,7 +164,7 @@ L3 NO₂
 
 ## 👨‍💻 Author
 
-Aryan
+Aryan Kumar
 
 AI Engineering Student
 
