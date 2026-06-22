@@ -87,10 +87,10 @@ Air-Quality-Aerosol-Mapping/
 ## 📷 Demo Screenshot
 Here is a preview of the Air Quality & Aerosol Mapping:
 
-![Demo Screenshot](images/demo.png)
-![Demo Screenshot](images/demo1.png)
-![Demo Screenshot](images/demo2.png)
-![Demo Screenshot](images/demo3.png)
+![Demo Screenshot](images/Demo.png)
+![Demo Screenshot](images/Demo1.png)
+![Demo Screenshot](images/Demo2.png)
+![Demo Screenshot](images/Demo3.png)
 
 ---
 
