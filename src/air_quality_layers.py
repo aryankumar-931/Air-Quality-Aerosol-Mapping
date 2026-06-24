@@ -1,8 +1,15 @@
 import ee
+import streamlit as st
+from google.oauth2 import service_account
 
 PROJECT_ID = "my-project-497608"
 
-ee.Initialize(project=PROJECT_ID)
+credentials = service_account.Credentials.from_service_account_info(
+    st.secrets["gcp_service_account"],
+    scopes=["https://www.googleapis.com/auth/cloud-platform"],
+)
+
+ee.Initialize(credentials, project=PROJECT_ID)
 
 
 def get_aod_layer(start_date, end_date):
